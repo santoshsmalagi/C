@@ -11,9 +11,9 @@ int main(int argc, char *argv[], char *envp[])
 {
 
   printf("\n---------------------------------------------------------------\n");
-  printf("The environment:\n");
+  printf("The Environment:\n");
   
-  int i =0;
+  int i = 0;
   while(envp[i] != NULL)
   {
     printf("%s\n", envp[i]);
